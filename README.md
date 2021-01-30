@@ -1,4 +1,4 @@
-# React Native Login Template
+# My Campus Assignments Project
 
 This repo is proudly sponsored by:
 
@@ -36,8 +36,6 @@ yarn install
 ## Support
 
 In case of any questions or problems, please contact me at:
-[hello@reactnativemarket.com](mailto:hello@reactnativemarket.com)
+[okkyalwan7@gmail.com](mailto:okkyalwan7@gmail.com)
 
 ### Happy Coding 🚀
-
-### [ReactNativeMarket.com](http://reactnativemarket.com/)
