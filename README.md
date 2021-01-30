@@ -2,11 +2,12 @@
 
 This repo is proudly sponsored by:
 
-  <img src="https://github.com/oklays/okky-mobile-apps-uas1/blob/main/assets/icon.png" width="280"><br />
+  <img src="https://github.com/oklays/okky-mobile-apps-uas1/blob/main/assets/icon.png" width="230"><br />
   React Native Apps.
 
 ## How to use?
-This apps made by expo, make sure you have installed the expo, if not alreay installed, you can follow this link https://expo.io/
+This apps made by expo, make sure you have installed the expo, if not alreay installed, you can follow this link https://expo.io/,
+
 in this case we assume you has installed expo on your pc.
 
 You must be installed expo client on your Android/ios devices.
