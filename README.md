@@ -33,11 +33,7 @@ yarn install
 
 ## Preview
 
-![homescreen](https://github.com/oklays/okky-mobile-apps-uas1/blob/main/screenshoots/StartScreen.jpeg)
-![login](https://github.com/oklays/okky-mobile-apps-uas1/blob/main/screenshoots/Dashboard.jpeg)
-![register](https://github.com/oklays/okky-mobile-apps-uas1/blob/main/screenshoots/LoginScreen.jpeg)
-![forgot](https://github.com/oklays/okky-mobile-apps-uas1/blob/main/screenshoots/RegisterScreen.jpeg)
-![dashboard](https://github.com/oklays/okky-mobile-apps-uas1/blob/main/screenshoots/YoutubeStreaming.jpeg)
+![homescreen](https://github.com/oklays/okky-mobile-apps-uas1/blob/main/screenshoots/Board.png)
 
 ## Support
 
