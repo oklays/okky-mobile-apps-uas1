@@ -1,17 +1,16 @@
-# React Native Login Template
+# My Campus Assignments Project
 
 This repo is proudly sponsored by:
 
-<a href="https://reactnativemarket.com/" rel="nofollow" target="_blank">
-  <img src="https://raw.githubusercontent.com/venits/react-native-market/master/assets/banner.png" width="280"><br />
-  React Native Templates & Starter Kits and Apps for easier start.
-</a>
-
-## Demo
-
-https://simple-login-template.web.app
+  <img src="https://github.com/oklays/okky-mobile-apps-uas1/blob/main/assets/icon.png" width="230"><br />
+  React Native Apps.
 
 ## How to use?
+This apps made by expo, make sure you have installed the expo, if not alreay installed, you can follow this link https://expo.io/,
+
+in this case we assume you has installed expo on your pc.
+
+You must be installed expo client on your Android/ios devices.
 
 1. Download or clone this repo.
 
@@ -23,13 +22,17 @@ npm install
 yarn install
 ```
 
-3. Run project on iOS / Android.
+3. Run project.
 
 ```js
- npm run ios // npm run android
+ npm start
  // or
- yarn ios // yarn android
+ yarn start
 ```
+
+make sure you are in a wifi / hotspot network that is connected to your computer and device
+
+4. Scan barcode with expo client on your Android device, on ios just click link on tab "Recently In Development"
 
 ## Preview
 
@@ -38,8 +41,6 @@ yarn install
 ## Support
 
 In case of any questions or problems, please contact me at:
-[hello@reactnativemarket.com](mailto:hello@reactnativemarket.com)
+[okkyalwan7@gmail.com](mailto:okkyalwan7@gmail.com)
 
 ### Happy Coding 🚀
-
-### [ReactNativeMarket.com](http://reactnativemarket.com/)
