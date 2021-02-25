@@ -13,6 +13,7 @@ import {
   VideoStreaming,
   BangunDatarSegitiga,
   CreditScreen,
+  FruitListView,
 } from './src/screens'
 
 const Stack = createStackNavigator()
@@ -22,11 +23,12 @@ const App = () => {
     <Provider theme={theme}>
       <NavigationContainer>
         <Stack.Navigator
-          initialRouteName="StartScreen"
+          initialRouteName="FruitListView"
           screenOptions={{
             headerShown: false,
           }}
         >
+          <Stack.Screen name="FruitListView" component={FruitListView} />
           <Stack.Screen name="StartScreen" component={StartScreen} />
           <Stack.Screen name="LoginScreen" component={LoginScreen} />
           <Stack.Screen name="RegisterScreen" component={RegisterScreen} />
