@@ -1,53 +1,40 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Provider } from 'react-native-paper'
-import { NavigationContainer } from '@react-navigation/native'
-import { createStackNavigator } from '@react-navigation/stack'
 import { theme } from './src/core/theme'
-import {
-  StartScreen,
-  LoginScreen,
-  RegisterScreen,
-  ForgotPasswordScreen,
-  Dashboard,
-  BangunRuang,
-  VideoStreaming,
-  BangunDatarSegitiga,
-  CreditScreen,
-  FruitListView,
-} from './src/screens'
+import Router from './src/router'
+import * as Font from 'expo-font'
 
-const Stack = createStackNavigator()
+const customFonts = {
+  primary: {
+    300: './src/HotelApps/utils/fonts/Nunito-Light.ttf',
+    400: './src/HotelApps/utils/fonts/Nunito-Regular.ttf',
+    600: './src/HotelApps/utils/fonts/Nunito-SemiBold.ttf',
+    700: './src/HotelApps/utils/fonts/Nunito-Bold.ttf',
+    normal: './src/HotelApps/utils/fonts/Nunito-Regular.ttf'
+  },
+}
 
 const App = () => {
-  return (
-    <Provider theme={theme}>
-      <NavigationContainer>
-        <Stack.Navigator
-          initialRouteName="FruitListView"
-          screenOptions={{
-            headerShown: false,
-          }}
-        >
-          <Stack.Screen name="FruitListView" component={FruitListView} />
-          <Stack.Screen name="StartScreen" component={StartScreen} />
-          <Stack.Screen name="LoginScreen" component={LoginScreen} />
-          <Stack.Screen name="RegisterScreen" component={RegisterScreen} />
-          <Stack.Screen name="Dashboard" component={Dashboard} />
-          <Stack.Screen name="BangunRuang" component={BangunRuang} />
-          <Stack.Screen name="CreditScreen" component={CreditScreen} />
-          <Stack.Screen name="VideoStreaming" component={VideoStreaming} />
-          <Stack.Screen
-            name="BangunDatarSegitiga"
-            component={BangunDatarSegitiga}
-          />
-          <Stack.Screen
-            name="ForgotPasswordScreen"
-            component={ForgotPasswordScreen}
-          />
-        </Stack.Navigator>
-      </NavigationContainer>
-    </Provider>
-  )
+  const [fontsLoaded, setFontsLoaded] = useState(true)
+  
+  // const _loadFontsAsync = async () => {
+  //   await Font.loadAsync(customFonts)
+  //   setFontsLoaded(true)
+  // }
+
+  // useEffect(() => {
+  //   _loadFontsAsync()
+  // }, [])
+
+  if (fontsLoaded) {
+    return (
+      <Provider theme={theme}>
+        <Router />
+      </Provider>
+    )
+  } else {
+    return null
+  }
 }
 
 export default App
