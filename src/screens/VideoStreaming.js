@@ -82,7 +82,6 @@ const VideoStreaming = ({ navigation }) => {
             {isLoad ? (
               <WebView
                 containerStyle={{ borderRadius: 10 }}
-                styl
                 style={{ borderRadius: 10 }}
                 source={{
                   uri: `http://www.youtube.com/embed/${

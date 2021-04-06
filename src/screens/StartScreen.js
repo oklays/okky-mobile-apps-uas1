@@ -11,18 +11,22 @@ const StartScreen = ({ navigation }) => (
     <Logo />
     <Header>Mulai dari sini ya...</Header>
     <Paragraph>
-      Aplikasi ini dibuat untuk kebutuhan UAS kampus
+      Aplikasi ini dibuat untuk kebutuhan UTS kampus
       <Text style={{ fontWeight: 'bold' }}> Bina Insani University</Text>
     </Paragraph>
-    <Button mode="contained" onPress={() => navigation.navigate('LoginScreen')}>
-      Masuk
+    <Paragraph>
+      <Text style={{ fontWeight: 'bold' }}> OKKY ALWAN BAIDHOO</Text>
+      {'\n'}2018310036
+    </Paragraph>
+    <Button mode="contained" onPress={() => navigation.navigate('GridScreen')}>
+      Mulai
     </Button>
-    <Button
+    {/* <Button
       mode="outlined"
       onPress={() => navigation.navigate('RegisterScreen')}
     >
       Daftar
-    </Button>
+    </Button> */}
     <View style={{ position: 'absolute', bottom: 30, alignItems: 'center' }}>
       <View style={{ flexDirection: 'row', alignItems: 'center' }}>
         <Text style={{ fontWeight: '200' }}>made with </Text>
