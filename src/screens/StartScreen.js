@@ -15,8 +15,8 @@ const StartScreen = ({ navigation }) => (
       <Text style={{ fontWeight: 'bold' }}> Bina Insani University</Text>
     </Paragraph>
     <Paragraph>
-      <Text style={{ fontWeight: 'bold' }}> OKKY ALWAN BAIDHOO</Text>
-      {'\n'}2018310036
+      <Text style={{ fontWeight: 'bold' }}>NAMA MAHASISWA</Text>
+      {'\n'}NIM
     </Paragraph>
     <Button mode="contained" onPress={() => navigation.navigate('GridScreen')}>
       Mulai
